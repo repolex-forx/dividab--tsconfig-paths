@@ -1,0 +1,7 @@
+[2026-09-15T07:37:18Z] === AST ITERATION 1 START | repo=dividab/tsconfig-paths sha=11b774d9 ===
+[2026-09-15T07:37:18Z] [iter=1] PHASE START: ast repo=dividab/tsconfig-paths sha=11b774d9
+[2026-09-15T07:37:18Z] [iter=1] Building AST aggregate chunks
+[2026-09-15T07:37:23Z] [iter=1] AST chunks built count=1 triples=67716
+[2026-09-15T07:37:23Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/11b774d994b897c6c8e87dda57375a285813731d/.complete
+[2026-09-15T07:37:23Z] [iter=1] PHASE END: ast elapsed_s=5 elapsed_min=0.1
+[2026-09-15T07:37:23Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
