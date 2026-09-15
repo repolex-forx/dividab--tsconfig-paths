@@ -1,0 +1,17 @@
+[2026-09-15T07:38:20Z] === ENRICH ITERATION 1 START | repo=dividab/tsconfig-paths sha=11b774d9 ===
+[2026-09-15T07:38:20Z] [iter=1] PHASE START: enrich repo=dividab/tsconfig-paths sha=11b774d9 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/11b774d9-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/11b774d994b897c6c8e87dda57375a285813731d.nq.gz
+[2026-09-15T07:38:37Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=85 MB
+[2026-09-15T07:38:38Z] [iter=1] AST store loaded triples=67714 load_secs=1 mem_mb=186 MB
+[2026-09-15T07:38:38Z] [iter=1] Step 2: Finding LSP targets mem_mb=186 MB
+[2026-09-15T07:38:38Z] [iter=1] LSP targets found call_sites=508 imports=0 extends=1 implements=0 secs=0
+[2026-09-15T07:38:38Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=186 MB
+[2026-09-15T07:38:38Z] [iter=1] Position index built positions=4751 nodes_with_types=5626 secs=0 mem_mb=186 MB
+[2026-09-15T07:38:38Z] [iter=1] Step 3: Starting LSP resolution mem_mb=186 MB already_completed_types=[] already_completed_files=0
+[2026-09-15T07:38:38Z] [iter=1] Resolving target type target_type=call_site count=508
+[2026-09-15T07:38:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=20 resolved=60 errors=230 current=src/register.ts
+[2026-09-15T07:38:52Z] [iter=1] Target type resolved target_type=call_site resolved=66 errors=236 secs=14 mem_mb=186 MB
+[2026-09-15T07:38:52Z] [iter=1] Resolving target type target_type=extends_clause count=1
+[2026-09-15T07:38:54Z] [iter=1] Target type resolved target_type=extends_clause resolved=1 errors=0 secs=2 mem_mb=186 MB
+[2026-09-15T07:38:58Z] [iter=1] Step 5: Writing final enrichment file triples=5280
+[2026-09-15T07:38:58Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/11b774d994b897c6c8e87dda57375a285813731d.nq.gz size_kb=84
+[2026-09-15T07:38:58Z] [iter=1] PHASE END: enrich elapsed_s=38 elapsed_min=0.6 total_triples=5280
